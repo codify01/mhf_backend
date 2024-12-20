@@ -3,7 +3,7 @@
   "name": "node-mvc-app",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
