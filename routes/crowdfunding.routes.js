@@ -1,12 +1,7 @@
 import express from 'express';
-import {
-  createCampaign,
-  getAllCampaigns,
-  getCampaignById,
-  updateCampaign,
-  deleteCampaign,
-} from './controllers/crowdfundingController.js';
-import { protect } from '../middleware/authMiddleware.js';
+
+import { createCampaign, getAllCampaigns, getCampaignById,  updateCampaign, deleteCampaign } from '../controllers/crowdfunding.controller.js';
+import { protect } from '../middleware/auth.middleware.js';
 
 const router = express.Router();
 

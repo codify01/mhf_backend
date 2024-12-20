@@ -1,6 +1,5 @@
-import { Crowdfunding } from '../models/Crowdfunding.js';
+import { Crowdfunding } from "../models/crowdfunding.model";
 
-// Create a crowdfunding campaign
 export const createCampaign = async (req, res) => {
   try {
     const { title, description, goal, images } = req.body;

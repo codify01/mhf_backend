@@ -1,9 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
-import authRoutes from './routes/authRoutes.js';
-import blogRoutes from './routes/blogRoutes.js';
-import crowdfundingRoutes from './routes/crowdfundingRoutes.js';
+import authRoutes from './routes/auth.routes.js';
+import blogRoutes from './routes/blog.routes.js';
+import crowdfundingRoutes from './routes/crowdfunding.routes.js';
 
 dotenv.config();
 
