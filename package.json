@@ -1,0 +1,32 @@
+{
+  
+  "name": "node-mvc-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codify01/mhf_backend.git"
+  },
+  "author": "MHF Developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codify01/mhf_backend/issues"
+  },
+   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "homepage": "https://github.com/codify01/mhf_backend#readme"
+}
